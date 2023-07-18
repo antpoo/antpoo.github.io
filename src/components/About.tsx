@@ -17,12 +17,12 @@ function About() {
                     </h2>
                     <p className='mb-8 leading-relaxed'>
                         <br />
-                        Hi! My name is Andrew Jiang. I am a 12th Grade student currently attending Dr. Frank J. Hayden Secondary School. <br />
-                        I am super passionate about STEM and love to learn whatever I can about it in my free time! I like to spend my time <br />
-                        solving math problems, competitive programming problems, and working on projects like this website! On another <br />
-                        note, I also do love world affairs and geopolitics, and I try and spend my time learning about the world and <br />
-                        understanding us as humans more. For this reason, I am super into Model United Nations as well, and have been <br />
-                        to many conferences where I can debate, discuss, negotiate, and solve world issues with many peers that I have <br />
+                        Hi! My name is Andrew Jiang. I am a 12th Grade student currently attending Dr. Frank J. Hayden Secondary School. 
+                        I am super passionate about STEM and love to learn whatever I can about it in my free time! I like to spend my time 
+                        solving math problems, competitive programming problems, and working on projects like this website! On another 
+                        note, I also do love world affairs and geopolitics, and I try and spend my time learning about the world and 
+                        understanding us as humans more. For this reason, I am super into Model United Nations as well, and have been 
+                        to many conferences where I can debate, discuss, negotiate, and solve world issues with many peers that I have 
                         never met before! Also, I do like getting on and playing video games from time to time :D.
                     </p>
                     <div className='flex justify-center'>
