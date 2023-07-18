@@ -1,6 +1,6 @@
-import * as React from 'react';
+import React from 'react';
 
-function IconGithubWhite(props: React.SVGProps<SVGSVGElement>) {
+function GithubWhiteIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg fill='none' viewBox='0 0 15 15' height='1em' width='1em' {...props}>
       <path
@@ -11,4 +11,4 @@ function IconGithubWhite(props: React.SVGProps<SVGSVGElement>) {
   );
 }
 
-export default IconGithubWhite;
+export default GithubWhiteIcon;
