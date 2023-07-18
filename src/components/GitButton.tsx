@@ -32,7 +32,7 @@ function GitButton() {
         return (
             <div>
                 <ThemeProvider theme={theme}>
-                    <Button variant='text' startIcon={<IconGithubWhite />} href='https://github.com/antpoo'>
+                    <Button variant='text' startIcon={<IconGithubWhite />} href='https://github.com/antpoo' target='_blank' rel='noopener noreferrer'>
                         My GitHub
                     </Button>
                 </ThemeProvider>

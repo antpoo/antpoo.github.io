@@ -15,12 +15,15 @@ function Projects() {
                 Here are a few of the projects I've made in the past and/or am currently working on.
               </p>
             </div>
-            {/* <div className='flex flex-wrap -m-4'>
+            <div className='flex flex-wrap -m-4'>
               {projects.map((project) => (
                 <a
                   href={project.link}
                   key={project.image}
-                  className='sm:w-1/2 w-100 p-4'>
+                  className='sm:w-1/2 w-100 p-4'
+                  target='_blank' 
+                  rel='noopener noreferrer'>
+                    
                   <div className='flex relative'>
                     <img
                       alt='gallery'
@@ -39,7 +42,7 @@ function Projects() {
                   </div>
                 </a>
               ))}
-            </div> */}
+            </div>
           </div>
         </section>
     );
