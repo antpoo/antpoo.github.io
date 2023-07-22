@@ -15,7 +15,7 @@ function About() {
                     <h2 className='text-white font-sans'>
                         PROGRAMMER, MATH ENJOYER, AND CASUAL GAMER
                     </h2>
-                    <p className='mb-8 leading-relaxed'>
+                    <p className='mb-8 leading-relaxed text-gray-200'>
                         <br />
                         Hi! My name is Andrew Jiang. I am a 12th Grade student currently attending Dr. Frank J. Hayden Secondary School. 
                         I am super passionate about STEM and love to learn whatever I can about it in my free time! I like to spend my time 

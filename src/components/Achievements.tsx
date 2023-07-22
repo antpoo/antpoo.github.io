@@ -5,7 +5,7 @@ import { achievements } from './datajsons/achievementdata';
 
 function Achievements() {
     return (
-        <section id='achievements' className='text-gray-400 bg-gray-900 body-font'>
+        <section id='achievements' className='text-gray-300 body-font'>
             <div className='container px-5 py-10 mx-auto text-center lg:px-40'>
                 <div className='flex flex-col w-full mb-20'>
                     <TrophyIcon className='mx-auto inline-block w-10 mb-4' />
@@ -18,7 +18,7 @@ function Achievements() {
                 </div>
                 <div className='flex flex-wrap -m-4'>
                     {achievements.map(achievement => (
-                        <div key={achievement.achievement} className='p-2 sm:w-1/2 w-full'>
+                        <div key={achievement.achievement} className='p-2 sm:w-1/2 w-full text-gray-400'>
                             <div className='bg-gray-800 rounded flex p-4 h-full items-center'>
                                 <CheckBadgeIcon className='text-blue-300 w-6 h-6 flex-shrink-0 mr-4' />
                                 <span className='title-font font-medium'>

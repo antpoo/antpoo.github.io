@@ -12,11 +12,11 @@ import { contacts } from './datajsons/contactdata';
 function Contact() {
 
     return (
-      <section id='contact' className='text-gray-400 bg-gray-900 body-font'>
+      <section id='contact' className='text-gray-300 body-font'>
         <div className='container px-5 py-10 mx-auto text-center lg:px-40'>
           <div className='flex flex-col w-full mb-20'>
             <AtSymbolIcon className='mx-auto inline-block w-10 mb-4' />
-            <h1 className='sm:text-4xl text-3xl font-medium title-font mb-4 text-white'>
+            <h1 className='sm:text-4xl text-3xl font-medium title-font text-white'>
               Contact Me
             </h1>
           </div>
@@ -43,7 +43,7 @@ function Contact() {
                       </React.Fragment>} 
                     secondary={
                       <React.Fragment>
-                        <Typography className='text-gray-400'
+                        <Typography className='text-gray-300'
                         sx={{ display: 'inline' }}
                         component='span'
                         variant='body2'
