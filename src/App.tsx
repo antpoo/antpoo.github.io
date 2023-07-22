@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Interests from './components/Interests';
 import Projects from './components/Projects';
 import Achievements from './components/Achievements';
+import Contact from './components/Contact';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Interests />
       <Projects />
       <Achievements />
+      <Contact />
     </main>
   );
 }

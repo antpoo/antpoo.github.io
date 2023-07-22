@@ -20,7 +20,7 @@ function Achievements() {
                     {achievements.map(achievement => (
                         <div key={achievement.achievement} className='p-2 sm:w-1/2 w-full'>
                             <div className='bg-gray-800 rounded flex p-4 h-full items-center'>
-                                <CheckBadgeIcon className='text-green-400 w-6 h-6 flex-shrink-0 mr-4' />
+                                <CheckBadgeIcon className='text-blue-300 w-6 h-6 flex-shrink-0 mr-4' />
                                 <span className='title-font font-medium'>
                                     <span className='text-white'>{achievement.achievement} <br /> </span> at {achievement.location}
                                 </span>

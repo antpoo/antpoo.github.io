@@ -29,7 +29,7 @@ export const projects: Project[] = [
       description:
         'I used JavaFX to develop a GUI app and made a fun game based on Nintendo\'s Super Mario Bros. games. All credit for images goes to Nintendo!',
       image: './JavaFxLogo.png',
-      link: '',
+      link: 'https://github.com/antpoo/super-mario-shooter',
     },
     {
       title: 'Minecraft Plugins',
@@ -40,7 +40,7 @@ export const projects: Project[] = [
       link: '',
     },
     {
-      title: 'Journey of the Prarie King',
+      title: 'Journey of the Prairie King',
       subtitle: 'Pygame',
       description: 'I used Pygame to develop a remake of an arcade game from Stardew Valley. All credit goes to ConcernedApe for images and game idea.',
       image: './pygame.png',
