@@ -7,7 +7,7 @@ import GithubWhiteIcon from './icons/GithubWhiteIcon';
 const theme : Theme = createTheme({
     palette: {
         primary: {
-            main: '#f3f4f6' // gray-200
+            main: '#ffedd5' // orange-100
         },
     },
 });
