@@ -4,7 +4,7 @@ import GitButton from './GitButton';
 function Navbar() {
     
   return (
-    <header className='bg-gradient-to-r from-blue-400 to-orange-400 md:sticky top-0 z-10'>
+    <header className='bg-gradient-to-r from-blue-500 to-orange-500 md:sticky top-0 z-10'>
       <div className='pl-10 container flex flex-wrap p-1 flex-col md:flex-row items-center text-gray-100'>
         <a className='title-font font-medium mb-4 md:mb-0'>
           <a href='#about' className='ml-3 text-xl'>
