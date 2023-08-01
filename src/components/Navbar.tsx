@@ -18,9 +18,9 @@ function Navbar() {
           <a href='#achievements' className='mr-5 hover:text-white'>
             Achievements
           </a>
-          {/* <a href='#blog' className='mr-5 hover:text-white'>
+          <a href='#blog' className='mr-5 hover:text-white'>
             Blog
-          </a> */}
+          </a>
           <a href='#contact' className='mr-5 hover:text-white'>
             Contact
           </a>

@@ -5,7 +5,6 @@ import Projects from './components/Projects';
 import Achievements from './components/Achievements';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
-import './App.css';
 
 function App() {
   return (
