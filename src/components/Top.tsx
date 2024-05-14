@@ -4,9 +4,9 @@ import Stack from '@mui/material/Stack';
 import ComputerDesktopIcon from './icons/ComputerDesktopIcon';
 import ContactIcon from './icons/ContactIcon';
 
-function About() {
+function Top() {
     return (
-        <section id='about'>
+        <section id='top'>
             <div className='mx-auto flex px-10 py-5 md:flex-row flexcol items-center'>
                 <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center font-medium'>
                     <h1 className='text-white font-sans title-font sm:text-4xl text-3xl mb-4'>
@@ -29,7 +29,7 @@ function About() {
                         <Stack direction='row' spacing={2}>
                             <Button
                             variant='contained'
-                            href='#projects'
+                            href='/projects'
                             color='primary'
                             startIcon={<ComputerDesktopIcon  />}>
                                 My Projects
@@ -49,7 +49,7 @@ function About() {
                     <img
                         className='object-cover object-center rounded pr-20'
                         alt='hero'
-                        src='./coding.svg'
+                        src='./personcoding.webp'
                     />
                 </div>
             </div>
@@ -57,4 +57,4 @@ function About() {
     );
 }
 
-export default About;
+export default Top;

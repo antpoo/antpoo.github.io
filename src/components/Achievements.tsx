@@ -19,7 +19,7 @@ function Achievements() {
                 <div className='flex flex-wrap -m-4'>
                     {achievements.map(achievement => (
                         <div key={achievement.achievement} className='p-2 sm:w-1/2 w-full text-gray-400'>
-                            <div className='bg-gray-800 rounded flex p-4 h-full items-center'>
+                            <div className='bg-gradient-to-r from-orange-800 to-orange-800 rounded flex p-4 h-full items-center'>
                                 <CheckBadgeIcon className='text-blue-300 w-6 h-6 flex-shrink-0 mr-4' />
                                 <span className='title-font font-medium'>
                                     <span className='text-white'>{achievement.achievement} <br /> </span> at {achievement.location}
