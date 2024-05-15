@@ -27,7 +27,7 @@ function Navbar() {
   );
 
   return (
-    <nav className={`sticky top-0 flex items-center justify-between pt-4 bg-white ${isScrolled ? 'shadow-bottom' : ''}`}>
+    <nav className={`sticky top-0 flex items-center justify-between py-3 bg-white ${isScrolled ? 'shadow-bottom' : ''}`}>
       <div className="text-xl font-bold transition-transform transform hover:scale-110 hover:text-pink-600">
         <a href="/">Andrew Jiang</a>
       </div>
