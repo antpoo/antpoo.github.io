@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Blog from "./components/Blog";
+import Projects from "./components/Projects";
 import Bb from "./components/Bb";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -21,9 +22,16 @@ function App() {
               <Blog />
             </Route>
 
+            <Route exact path="/projects">
+              <Projects />
+            </Route>
+
+
             <Route exact path="/test">
               <Bb />
             </Route>
+
+
           </Switch>
         </div>
       </main>
