@@ -7,46 +7,34 @@ import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Welcome from "./components/blog/welcome/Welcome";
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className="flex flex-col max-w-4xl min-h-screen p-4 mx-auto">
         <header className="sticky top-0 z-50 bg-white">
-        <Navbar />
+          <Navbar />
         </header>
         <main>
+          <Routes>
+              <Route path="/" element={<Home />} />
 
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
+              <Route path="/projects" element={<Projects />} />
 
-            <Route exact path="/projects">
-              <Projects />
-            </Route>
+              <Route path="/resume" element={<Resume />} />
 
-            <Route exact path="/resume">
-              <Resume />
-            </Route>
+              <Route path="/blog" element={<Blog />} />
 
-            <Route exact path="/blog">
-              <Blog />
-            </Route>
+              <Route path="/blog/welcome" element={<Welcome />} />
 
-            <Route exact path="/blog/welcome">
-              <Welcome />
-            </Route>
-
-          </Switch>
-
+          </Routes>
         </main>
         <footer className="mt-auto">
           <Bottombar />
         </footer>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 

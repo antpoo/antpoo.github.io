@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 
 function Navbar() {
   
@@ -29,21 +29,21 @@ function Navbar() {
   return (
     <nav className={`sticky top-0 flex items-center justify-between py-3 bg-white ${isScrolled ? 'shadow-bottom' : ''}`}>
       <div className="text-xl font-bold transition-transform transform hover:scale-110 hover:text-pink-600">
-        <a href="/">Andrew Jiang</a>
+        <Link to="/">Andrew Jiang</Link>
       </div>
       <div className="flex items-center space-x-8">
         <ul className="flex space-x-6">
           <li>
-            <a href="/" className={`${getNavLinkClass('/')}`}>Home</a>
+            <Link to="/" className={`${getNavLinkClass('/')}`}>Home</Link>
           </li>
           <li>
-            <a href="/blog" className={`${getNavLinkClass('/blog')}`}>Blog</a>
+            <Link to="/blog" className={`${getNavLinkClass('/blog')}`}>Blog</Link>
           </li>
           <li>
-            <a href="/projects" className={`${getNavLinkClass('/projects')}`}>Projects</a>
+            <Link to="/projects" className={`${getNavLinkClass('/projects')}`}>Projects</Link>
           </li>
           <li>
-            <a href="/resume" className={`${getNavLinkClass('/resume')}`}>Resume</a>
+            <Link to="/resume" className={`${getNavLinkClass('/resume')}`}>Resume</Link>
           </li>
         </ul>
       </div>
