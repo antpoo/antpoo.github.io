@@ -1,12 +1,10 @@
 import React from "react";
-import { ChevronDoubleDownIcon } from "@heroicons/react/24/outline";
-import { HashLink } from "react-router-hash-link";
 
 function Home() {
 
     return (
         <div className="flex flex-col items-center justify-center my-20">
-            <img src={`${process.env.PUBLIC_URL}/andrew_headshot.jpeg`} alt="Andrew Jiang" className="w-24 h-24 rounded-full" />
+            <img src={`${process.env.PUBLIC_URL}/andrew_headshot.jpeg`} alt="Andrew Jiang" className="w-20 h-20 rounded-full" />
             <h1 className="my-8 text-3xl font-bold">Greetings, I'm Andrew Jiang!</h1>
             <hr className="w-64 h-1 mx-auto bg-pink-600 border-0" />
             <div>

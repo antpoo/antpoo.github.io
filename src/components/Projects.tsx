@@ -11,7 +11,7 @@ function Projects() {
         <CodeBracketIcon className="inline-block w-10 text-pink-600" />
         <h1 className="my-2 text-3xl font-bold">Projects</h1>
         <p className="my-6 text-center">
-          Go to my GitHub repository or scroll down to see the projects that I've made.
+          Go to my GitHub profile or scroll down to see the projects that I've made.
         </p>
         <a
           href="https://github.com/antpoo"
