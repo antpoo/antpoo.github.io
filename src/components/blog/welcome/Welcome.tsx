@@ -14,7 +14,7 @@ function Welcome() {
                 <h1 className="text-3xl font-bold">Welcome to my Blog!</h1>
                 <div className="flex mt-2">
                     {/* author */}
-                    <h3 className="mr-4 text-sm">by <a className="text-pink-600 hover:underline" href="/">Andrew Jiang</a></h3>
+                    <h3 className="mr-4 text-sm">by <Link to="/" className="text-pink-600 hover:underline">Andrew Jiang</Link></h3>
                     {/* date */}
                     <h3 className="text-sm text-stone-400">21 May 2024</h3>
                 </div>
