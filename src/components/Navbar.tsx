@@ -23,7 +23,7 @@ function Navbar() {
   }, []);
 
   const getNavLinkClass = (path: string) => (
-    location.pathname === path ? "text-pink-500 font-bold" : "text-gray-500 hover:text-pink-600"
+    location.pathname === path ? "text-pink-600 font-bold" : "text-gray-500 hover:text-pink-600"
   );
 
   return (
