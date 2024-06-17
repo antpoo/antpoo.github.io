@@ -15,7 +15,7 @@ function Blog() {
                     <tbody>
                         {posts.map((post) => (
                             <tr key={post.num}>
-                                <td className="py-4 pl-24 pr-48"><Link to={`${post.url}`} className="text-pink-600 hover:underline">{post.title}</Link></td>
+                                <td className="py-4 pl-10 pr-48"><Link to={`${post.url}`} className="text-pink-600 hover:underline">{post.title}</Link></td>
                                 <td className="px-4 py-2 text-sm"><a href="/" className="hover:text-pink-600">{post.author}</a></td>
                                 <td className="px-4 py-2 text-base text-stone-400">{post.date}</td>
                             </tr>
