@@ -43,7 +43,7 @@ function Navbar() {
             <Link to="/projects" className={`${getNavLinkClass('/projects')}`}>Projects</Link>
           </li>
           <li>
-            <Link to="/resume" className={`${getNavLinkClass('/resume')}`}>Resume</Link>
+            <Link to="/resume" className={`${getNavLinkClass('/resume')}`}>Résumé</Link>
           </li>
         </ul>
       </div>
