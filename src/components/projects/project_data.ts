@@ -30,10 +30,10 @@ export const projects: Project[] = [
         github: "https://github.com/antpoo/webcam-tablet",
     },
     {
-        name: "Super Mario Shooter",
+        name: "Mario Shooter",
         description: "This was created for my ICS4U class. It is a game where you control a character and collect power ups to defeat enemies. Created using JavaFX and used a lot of Object Oriented Programming concepts learned in class. Idea and image credits all go to Nintendo.",
         tech: [],
         image: "super_mario_shooter.png",
-        github: "https://github.com/antpoo/super-mario-shooter",
+        github: "https://github.com/antpoo/mario-shooter",
     },
 ];
