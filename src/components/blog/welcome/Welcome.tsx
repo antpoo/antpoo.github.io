@@ -1,6 +1,7 @@
 import React from "react";
-import { ChevronDoubleLeftIcon } from "@heroicons/react/24/outline";
+import { ChevronDoubleLeftIcon, ChevronDoubleUpIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function Welcome() {
     return (
@@ -30,6 +31,11 @@ function Welcome() {
                 <p className="my-4">This blog will aim to focus on my professional life, that is school and work, however depending on circumstance, it is possible I may make somewhat personal posts too. There are many times where I feel like I can write about something, but I get too lazy to and completely forget about it. Hopefully this blog changes that. I do not expect many people apart from myself to read each of my posts, if any at all, but that is totally okay. This blog is meant as a place for me to write down my thoughts and experiences somewhere, and even act as a place where I can look back at my life.</p>
 
                 <p className="my-4">With all of that being said, thank you for reading through and I hope to see you in the next blog post! Even more important, hopefully there is even another blog post in the first place!</p>
+
+                <HashLink smooth to="/blog/welcome#top" className="flex items-center mb-10 text-pink-600 hover:underline group">
+                    <ChevronDoubleUpIcon className="w-4 mr-3 group-hover:animate-bounce" />
+                    <span>Back to Top</span>
+                </HashLink>
             </div>
         </div>
     );

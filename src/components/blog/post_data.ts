@@ -9,6 +9,13 @@ interface Post {
 export const posts: Post[] = [
     {
         num: 2,
+        date: "TBD",
+        title: "Reflecting on High School Part II: Grade 10",
+        author: "Andrew Jiang",
+        url: "grade-10",
+    },
+    {
+        num: 2,
         date: "17 June 2024",
         title: "Reflecting on High School Part I: Grade 9",
         author: "Andrew Jiang",

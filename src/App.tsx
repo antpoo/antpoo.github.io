@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Welcome from "./components/blog/welcome/Welcome";
 import Grade9 from "./components/blog/gr9/Grade9";
+import Grade10 from "./components/blog/gr10/Grade10";
 
 import { HashRouter, Routes, Route } from "react-router-dom";
 
@@ -30,6 +31,8 @@ function App() {
               <Route path="/blog/welcome" element={<Welcome />} />
 
               <Route path="/blog/grade-9" element={<Grade9 />} />
+
+              <Route path="/blog/grade-10" element={<Grade10 />} />
 
           </Routes>
         </main>
