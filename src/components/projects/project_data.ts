@@ -8,6 +8,20 @@ interface Project {
 
 export const projects: Project[] = [
     {
+        name: "Goose on the Loose",
+        description: "This was created for Hack the North 2024, and won the \"Best Domain Name from GoDaddy\" award. It is an app that lets users find and \"capture\" geese across the world. Users can see the location of geese on a map, and can \"capture\" them by taking a picture of the goose. The app uses machine learning to determine if the picture is of a goose, and if it is, the user gets add the goose to their collection, which is then dynamically given its own sprite and stats such as name, GPA, major, and more.",
+        tech: ["next-js.svg", "tailwindcss.svg", "mongodb.svg"],
+        image: "gooseontheloose.jpg",
+        github: "https://github.com/eyevyl/gooseontheloose"
+    },
+    {
+        name: "AnyJAMS",
+        description: "This was created for JAMHacks 8, and won the \"Best use of MATLAB\" award. It is an app that is like karaoke, but for instruments. The user gets to play a song of their choice, and must follow along on an instrument. The app takes in microphone input and sends it to MATLAB through a TCP socket connection. The soundwaves are then analyzed through various advanced mathematical organizations to check for similarity with the original song. The player's accuracy score is updated in real time.",
+        tech: ["flask.png", "Matlab_Logo.png", "python.svg", "javascript.png"],
+        image: "anyjams.jpg",
+        github: "https://github.com/m3di0cre3/Any-Jam",
+    },
+    {
         name: "The Three Rs (T3R)",
         description: "This was created for MLH's Hack the Classroom, and won the \"Best use of MongoDB Atlas\" award. It is an app that features two main components: the Supermarket Program & the Recycling Program. The Supermarket Program allows supermarkets to list food nearing perish for a reduced price, and the recycling program allows the user to answer a survey and uses A.I. to tell them how they can improve their lifestyle.",
         tech: ["react.png", "tailwindcss.svg", "nodejs.png", "mongodb.svg", "javascript.png"],
