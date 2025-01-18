@@ -42,9 +42,9 @@ function Grade10() {
 
                 <p className="my-4">Now, what did Waterloo CS have to do with my change in perspective of the extracurricular classes? See, the thing is, I was told that Waterloo CS (and other programs in the <a href="https://uwaterloo.ca/math/" target="_blank" className="text-pink-600 hover:underline">Faculty of Mathematics</a>) supposedly favoured students who performed well on math and computing contests. I would later on discover that this was a relatively small part of the admissions evaluation process, but this is what I had "known" at the time. Something that was more certain was another barrier for me: their insanely high admissions grade average requirement and the well-roundedness they sought in applicants through their extracurriculars. It was these newly learned facts that made me realize: I seriously needed to lock in.</p>
 
-                <h2 className="text-xl font-bold">The Start of Grade 10: A New Resolve</h2>
+                <h2 className="text-xl font-bold">The Start of Grade 10: A New Resolve</h2> 
 
-                <p className="py-4">Now, I knew if I had continued on the trajectory I was already on in my after-school math and coding classes, I would be doomed to fail on the contests.</p>
+                <p className="my-4">I knew I was struggling in my math and coding classes, and I knew I was not putting my best foot forward in my in-school academics. I knew I had to change this, and I knew I had to do it fast. The problem was, I had no idea what to do! I was entirely lost in my after-school classes, to the point where I didn't even begin to know where to start catching up. At this point, I went to my parents to ask for advice. My all-too-knowing mother was not entirely surprised by my struggling, and she offered her best capabilities to help me. She personally contacted and called the math teacher, and they had an hour-long discussion about what to do with me.</p>
 
                 <HashLink smooth to="/blog/grade-10#top" className="flex items-center mb-10 text-pink-600 hover:underline group">
                     <ChevronDoubleUpIcon className="w-4 mr-3 group-hover:animate-bounce" />
