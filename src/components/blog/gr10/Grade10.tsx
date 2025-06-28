@@ -44,7 +44,9 @@ function Grade10() {
 
                 <h2 className="text-xl font-bold">The Start of Grade 10: A New Resolve</h2>
 
-                <p className="py-4">Now, I knew if I had continued on the trajectory I was already on in my after-school math and coding classes, I would be doomed to fail on the contests.</p>
+                <p className="py-4">Now, I knew if I had continued on the trajectory I was already on in my after-school math and coding classes, I would be doomed to fail on the contests. Of course, "fail" is subjective; at the time I knew almost nothing about the contests either, in fact I didn't even know that honour roll was a thing!</p>
+
+                <p className="py-4">The first action I took was to have a long chat with my parents. I'm very lucky and fortunate to have super supportive parents, who always pushed me to do my best but never made me overdo anything. After a long chat with them, we decided to do a few things. First, we called my AMC teacher. During the call, we discussed what actions I'd need to take in order to improve in the class. At some point, my mother even sat in the classes with me and helped me with the material afterwards. We also made it clear that I had to focus up in high school.</p>
 
                 <HashLink smooth to="/blog/grade-10#top" className="flex items-center mb-10 text-pink-600 hover:underline group">
                     <ChevronDoubleUpIcon className="w-4 mr-3 group-hover:animate-bounce" />
