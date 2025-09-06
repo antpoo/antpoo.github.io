@@ -44,7 +44,9 @@ function Grade10() {
 
                 <h2 className="text-xl font-bold">The Start of Grade 10: A New Resolve</h2> 
 
-                <p className="my-4">I knew I was struggling in my math and coding classes, and I knew I was not putting my best foot forward in my in-school academics. I knew I had to change this, and I knew I had to do it fast. The problem was, I had no idea what to do! I was entirely lost in my after-school classes, to the point where I didn't even begin to know where to start catching up. At this point, I went to my parents to ask for advice. My all-too-knowing mother was not entirely surprised by my struggling, and she offered her best capabilities to help me. She personally contacted and called the math teacher, and they had an hour-long discussion about what to do with me.</p>
+                <p className="py-4">Now, I knew if I had continued on the trajectory I was already on in my after-school math and coding classes, I would be doomed to fail on the contests. Of course, "fail" is subjective; at the time I knew almost nothing about the contests either, in fact I didn't even know that honour roll was a thing!</p>
+
+                <p className="py-4">The first action I took was to have a long chat with my parents. I'm very lucky and fortunate to have super supportive parents, who always pushed me to do my best but never made me overdo anything. After a long chat with them, we decided to do a few things. First, we called my AMC teacher. During the call, we discussed what actions I'd need to take in order to improve in the class. At some point, my mother even sat in the classes with me and helped me with the material afterwards. We also made it clear that I had to focus up in high school.</p>
 
                 <HashLink smooth to="/blog/grade-10#top" className="flex items-center mb-10 text-pink-600 hover:underline group">
                     <ChevronDoubleUpIcon className="w-4 mr-3 group-hover:animate-bounce" />
